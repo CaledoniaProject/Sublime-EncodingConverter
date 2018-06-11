@@ -1,6 +1,6 @@
 # Sublime-EncodingConvert
 
-Reopen the current file and convert from whatever encoding you like to `UTF-8`. As `@kingkeith` pointed out, for some reason Sublime is unable to add more encoding in the `Reopen with Encoding` dialog. 
+Reopen the current file and convert from whatever encoding you like to `UTF-8`. As `@kingkeith` pointed out, for some reason Sublime is unable to add more encoding in the `Reopen with Encoding` dialog, so a plugin must be created to suit my needs.
 
 ## Usage
 
