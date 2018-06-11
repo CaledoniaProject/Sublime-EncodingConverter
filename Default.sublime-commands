@@ -1,0 +1,7 @@
+[{
+    "caption": "Reopen: convert from GBK to UTF8",
+    "command": "reopen_as_gbk"
+}, {
+    "caption": "Reopen: convert from BIG5 to UTF8",
+    "command": "reopen_as_big5"
+}]
