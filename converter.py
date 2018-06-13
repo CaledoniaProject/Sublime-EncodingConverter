@@ -1,3 +1,4 @@
+import re
 import subprocess
 import sublime
 import sublime_plugin
@@ -23,7 +24,9 @@ class BaseCommand(sublime_plugin.TextCommand):
             'iconv', '-f', self.from_e, '-t', 'utf8//ignore', self.view.file_name()
         ])
 
-        return result.decode('utf8')
+        result = result.decode('utf8')
+        result = re.sub(r'[\r]+', '', result)
+        return result
 
 class ReopenAsGbkCommand(BaseCommand):
     def run(self, edit):
